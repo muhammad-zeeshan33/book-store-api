@@ -1,0 +1,5 @@
+docker run -d --name bookstore 
+ -e POSTGRES_USER=bookstore_user
+ -e POSTGRES_PASSWORD=abc123 
+ -e POSTGRES_DB=bookstore 
+ -p 5432:5432 postgres:latest
